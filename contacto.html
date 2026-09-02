@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Parthur-Tech - Contacto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Parthur-Tech</h1>
+    <p>Servicio técnico a domicilio</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="registro.html">Registro</a>
+    <a href="ingreso.html">Ingreso</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Contáctanos</h2>
+      <p>¿Tu computador no enciende o anda lento? Cuéntanos qué pasa.</p>
+
+      <form id="form-contacto" novalidate>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" autocomplete="name">
+        <p class="error" id="error-nombre"></p>
+
+        <label for="correo">Correo</label>
+        <input type="text" id="correo" name="correo" autocomplete="email">
+        <p class="error" id="error-correo"></p>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+        <p class="error" id="error-mensaje"></p>
+
+        <button type="submit">Enviar</button>
+        <p class="error" id="form-exito"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Parthur-Tech &copy; 2026</p>
+    <p>Contacto: contacto@parthurtech.cl | +56 9 1234 5678</p>
+  </footer>
+
+  <script src="contacto.js"></script>
+</body>
+</html>
